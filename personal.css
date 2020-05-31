@@ -15,7 +15,7 @@ body{
   margin-top: .3em;
 }
 #home{
-  background-image: url('bgimg1.PNG');
+  background-image: url('bgimg1.png');
   background-size: cover;
   min-height: 100vh;
   position: relative;
