@@ -1,0 +1,175 @@
+body{
+  margin: 0em;
+}
+.Navbar{
+  background: #007bff;
+}
+#name{
+  margin-top: 1em;
+    margin-left: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+#nav{
+  margin-top: .3em;
+}
+#home{
+  background-image: url('bgimg1.PNG');
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  z-index: 0;
+  display: grid;
+  background-color:#344547;
+  margin-top: 3.7em;
+}
+.hello{
+  margin-top: 1em;
+}
+.text1{
+  font-size: 3em;
+  margin-top: -1em;
+}
+.me{
+  margin-top: 1em
+}
+.text2{
+  font-size: 3em;
+  margin-top: -3em;
+}
+.image{
+  margin-top: -12em;
+}
+.my-image{
+  max-width: 20%;
+  min-width: 15%;
+  height: auto;
+  border: 3px solid #ffffff;
+ border-radius: 75%;
+}
+.my-name{
+  margin-top: -11em;
+  color:whitesmoke;
+}
+@media (max-width: 320px){
+  .my-name{
+    margin-top:-20em ;
+  }
+  .image{
+    margin-top: -15em;
+  }
+}
+@media (max-width: 375px){
+  .my-name{
+    margin-top:-20em ;
+  }
+  .image{
+    margin-top: -15em;
+  }
+}
+@media (max-width: 415px){
+  .my-name{
+    margin-top:-27em ;
+  }
+  .image{
+    margin-top: -22em;
+  }
+  .hello{
+    margin-top:2em ;
+  }
+}
+@media (max-width: 600px){
+  .my-name{
+    margin-top:-21em ;
+  }
+    .image{
+      margin-top: -20em;
+    }
+}
+.about-image{
+  max-width: 60%;
+  height: auto;
+  margin-left: 5.5em; 
+  border: 2px solid #007bff;
+  border-radius: 26px;
+  margin-bottom: 2em;
+  background: #007bff;
+}
+.about-me{
+  width: 90%;
+  height: auto;
+  margin-left: 1.5em;
+  border: 2px solid #ffffff;
+  background-color: #007bff;
+  color: rgb(255, 255, 255);
+  margin-bottom: 2em;
+}
+#about-me{
+  color: rgb(255, 244, 253);
+}
+
+@media (max-width: 360px){
+  .about-image{
+    margin-left: 4em;
+ }
+ .about-me{
+   width: 100%;
+   height: auto;
+   margin-left:0em;
+ }
+}
+
+@media (max-width: 400px){
+  .about-image{
+    margin-left: 4.5em;
+  }
+  .about-me{
+    width: 100%;
+    height: auto;
+    margin-left:0em;
+  }
+}
+#button{
+  color: white;
+  border: 1px solid white;
+}
+#button:hover{
+  background: white;
+  color:rgb(0, 91, 175);
+  border:rgb(0, 91, 175);
+}
+.footer{
+  background-color: #007bff;
+}
+#insta{
+  background:#d72d5c;
+  color: white;
+}
+.git{
+  color: white;
+}
+@media (height: 1366px){
+  .text1{
+    font-size: 5em;
+    margin-top: -1em;
+  }
+  .text2{
+    font-size: 5em;
+    margin-top: -3em;
+  }
+  .image{
+    margin-top: -23em;
+  }
+  .my-image{
+    max-width: 30%;
+    min-width: 15%;
+    height: auto;
+    border: 3px solid #ffffff;
+   border-radius: 75%;
+  }
+  .my-name{
+    margin-top: -9em;
+    color:whitesmoke;
+    font-size: 4em;
+}
